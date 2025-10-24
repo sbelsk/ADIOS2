@@ -1,4 +1,5 @@
-FROM opensuse/tumbleweed
+# pull opensuse/tumbleweed:latest (as of 10/24/2025)
+FROM opensuse/tumbleweed@sha256:e3ca45ff0d197e6e2f38ea70d768146ccfe9ad9596c12ea2dc1747f7e902c9fb
 LABEL maintainer "Vicente Adolfo Bolea Sanchez<vicente.bolea@kitware.com>"
 
 # Base dependencies for building ADIOS2 projects

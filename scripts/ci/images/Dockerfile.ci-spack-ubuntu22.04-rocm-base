@@ -1,4 +1,5 @@
-ARG BASE_IMAGE=rocm/dev-ubuntu-22.04
+# pull rocm/dev-ubuntu-22.04:latest (as of 10/24/2025)
+ARG BASE_IMAGE=rocm/dev-ubuntu-22.04@sha256:6ac9fd5e03e8ce6424d2deb5b976d181e89bbb91d623c50f813a401e8e277dd2
 FROM $BASE_IMAGE
 
 # Base dependencies for building VTK-m projects
